@@ -21,7 +21,7 @@ public class login {
         }
     }
     static void check(String uname,String pass) throws Invalid {
-        if(uname.equals("nandu") && pass.equals("123"))
+        if(uname.equals("aneeta") && pass.equals("2022"))
             System.out.println("Login Success");
         else
             throw new Invalid("Incorrect login credentials!");
